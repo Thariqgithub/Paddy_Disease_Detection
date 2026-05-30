@@ -1,0 +1,19 @@
+names:
+- Bacterial_Blight
+- Brown_Spot
+- Healthy-Plant
+- Rice_Blast
+nc: 4
+roboflow:
+  license: CC BY 4.0
+  project: rice-disease-detection-zwaa8-3ycgi
+  url: https://universe.roboflow.com/ms-workspace-7urmz/rice-disease-detection-zwaa8-3ycgi/dataset/1
+  version: 1
+  workspace: ms-workspace-7urmz
+
+# test: ../test/images
+# train: ../train/images
+# val: ../valid/images
+train: dataset/train/images
+val:   dataset/valid/images
+test:  dataset/test/images
